@@ -12,7 +12,6 @@ const gallery = doc('.gallery');
 let imgTags = '', thumbTags = '';
 let cont = 0;
 
-
 for(let i=0; i<images.length; i++){
   imgTags += `
     <img class="item " src="assets/img/${images[i]}" alt="">
@@ -30,7 +29,6 @@ gallery.innerHTML += thumbTags;
 
 //? Buttons
 const btnUp = doc(".fa-chevron-up"), btnDown = doc(".fa-chevron-down");
-
 
 //? Init items & thumbnails
 items[cont].classList.add('d-block');
