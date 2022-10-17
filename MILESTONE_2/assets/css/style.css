@@ -51,3 +51,7 @@ img{
 .arrow.fa-chevron-down{
   bottom: 10px;
 }
+
+.item{
+  display: none;
+}
