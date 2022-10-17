@@ -1,4 +1,3 @@
-
 .debug{
   border: 1px solid firebrick;
   background-color: bisque;
@@ -22,7 +21,6 @@
   position: relative;
   height: 100%;
   width: 20%;
-  background-color: firebrick;
 }
 
 .arrow{
@@ -54,4 +52,15 @@ img{
 
 .item{
   display: none;
+}
+
+.thumbnail{
+  height: 20%;
+  width: 100%;
+  opacity: .5;
+}
+
+.thumbnail.active{
+  border: 3px solid white;
+  opacity: 1;
 }
